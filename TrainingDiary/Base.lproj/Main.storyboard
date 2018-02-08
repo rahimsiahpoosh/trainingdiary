@@ -225,12 +225,21 @@
                                     <action selector="save:" destination="euZ-mf-k7C" eventType="touchUpInside" id="VmB-m9-LBX"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vrc-V7-S0r">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="d1s-yd-xCZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Diary" id="3kq-z5-WJ9"/>
                     <connections>
+                        <outlet property="diaryTextView" destination="Vrc-V7-S0r" id="jHE-Kg-hfK"/>
                         <outlet property="subjectField" destination="rEu-xQ-WfO" id="yTn-Sb-E8e"/>
                         <segue destination="hnq-kk-4S9" kind="show" identifier="addedDiary" id="7cr-21-Hop"/>
                     </connections>
