@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Itq-RQ-g1c">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="TrainingDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vwa-OC-Xdb">
-                                <rect key="frame" x="30" y="133" width="607" height="80"/>
+                                <rect key="frame" x="30" y="165" width="315" height="80"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dCU-7U-fcr">
-                                        <rect key="frame" x="0.0" y="0.0" width="607" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="f@f.com" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dCU-7U-fcr">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5gv-2e-zro">
-                                        <rect key="frame" x="0.0" y="50" width="607" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5gv-2e-zro">
+                                        <rect key="frame" x="0.0" y="50" width="315" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -36,10 +36,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="rdd-ME-gQ0">
-                                <rect key="frame" x="160" y="234" width="347" height="67"/>
+                                <rect key="frame" x="160" y="266" width="55" height="67"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nya-2L-Ytd" customClass="ButtonRadius" customModule="TrainingDiary" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="347" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="55" height="30"/>
                                         <color key="backgroundColor" red="0.63137254901960782" green="0.82745098039215681" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="LOGIN">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -49,7 +49,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JA7-AG-2ae">
-                                        <rect key="frame" x="0.0" y="37" width="347" height="30"/>
+                                        <rect key="frame" x="0.0" y="37" width="55" height="30"/>
                                         <state key="normal" title="Sign Up">
                                             <color key="titleColor" red="0.63137254901960782" green="0.82745098039215681" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -89,17 +89,17 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="ZXF-Vn-P6D"/>
-                                <exclude reference="Ryf-00-Vu0"/>
                                 <exclude reference="ahf-a9-xat"/>
+                                <exclude reference="Ryf-00-Vu0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
                                 <include reference="ZXF-Vn-P6D"/>
                                 <exclude reference="qiZ-i7-eyL"/>
+                                <include reference="ahf-a9-xat"/>
                                 <include reference="Ryf-00-Vu0"/>
                                 <exclude reference="UIx-9l-sAA"/>
-                                <include reference="ahf-a9-xat"/>
                             </mask>
                         </variation>
                     </view>
@@ -121,7 +121,7 @@
             <objects>
                 <viewController id="hnq-kk-4S9" customClass="DiariesVC" customModule="TrainingDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="223-sd-DLD">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8hS-go-tpw">
@@ -129,7 +129,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="gymCell" id="pLB-5J-oS5" customClass="GymCell" customModule="TrainingDiary" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="gymCell" id="pLB-5J-oS5" customClass="GymCell" customModule="TrainingDiary" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pLB-5J-oS5" id="S1j-V3-G9b">
@@ -155,8 +155,17 @@
                                     <outlet property="delegate" destination="hnq-kk-4S9" id="e6F-im-CPU"/>
                                 </connections>
                             </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="9QG-Vo-Jga">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9QG-Vo-Jga" firstAttribute="top" secondItem="uIt-p2-mWf" secondAttribute="top" id="Dv3-3V-IID"/>
+                            <constraint firstItem="9QG-Vo-Jga" firstAttribute="leading" secondItem="uIt-p2-mWf" secondAttribute="leading" id="NE4-a7-SbB"/>
+                            <constraint firstItem="9QG-Vo-Jga" firstAttribute="trailing" secondItem="uIt-p2-mWf" secondAttribute="trailing" id="ahY-JM-Ah8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uIt-p2-mWf"/>
                     </view>
                     <navigationItem key="navigationItem" title="Diaries" id="u2s-s7-mvK">
@@ -167,19 +176,36 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="searchBar" destination="9QG-Vo-Jga" id="FbW-OA-yJR"/>
                         <outlet property="tableViewGymDiaries" destination="8hS-go-tpw" id="sg5-5h-ghY"/>
+                        <segue destination="kKU-YL-28q" kind="show" identifier="diaryDetail" id="1IL-Jz-XxI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XdZ-fa-ykj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2688.8000000000002" y="115.59220389805098"/>
+            <point key="canvasLocation" x="2854" y="116"/>
+        </scene>
+        <!--Diary DetailVC-->
+        <scene sceneID="81g-4i-kkh">
+            <objects>
+                <viewController id="kKU-YL-28q" customClass="DiaryDetailVC" customModule="TrainingDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zs2-Dv-SMw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="0g9-qy-Fay"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vx4-Bp-N1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3690" y="108"/>
         </scene>
         <!--Add Diary-->
         <scene sceneID="cmm-vq-Hdw">
             <objects>
-                <viewController id="euZ-mf-k7C" customClass="AddDiary" customModule="TrainingDiary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="euZ-mf-k7C" customClass="AddDiaryVC" customModule="TrainingDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0fG-Db-EVC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rEu-xQ-WfO">
@@ -211,33 +237,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xdp-Y7-dHn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2704.8000000000002" y="-626.53673163418296"/>
+            <point key="canvasLocation" x="2854" y="-627"/>
         </scene>
         <!--SignupVC-->
         <scene sceneID="Cx2-dO-3La">
             <objects>
                 <viewController id="BwL-Gh-GEL" customClass="SignupVC" customModule="TrainingDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ym-za-T8y">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="B6j-Ef-qrX">
-                                <rect key="frame" x="30" y="-73" width="607" height="130"/>
+                                <rect key="frame" x="30" y="219" width="315" height="130"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sM1-q9-xNd">
-                                        <rect key="frame" x="0.0" y="0.0" width="607" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Em@il" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y04-4m-GQ9">
-                                        <rect key="frame" x="0.0" y="50" width="607" height="30"/>
+                                        <rect key="frame" x="0.0" y="50" width="315" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FMZ-6E-qs8">
-                                        <rect key="frame" x="0.0" y="100" width="607" height="30"/>
+                                        <rect key="frame" x="0.0" y="100" width="315" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -245,7 +271,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0H5-0R-rgG" customClass="ButtonRadius" customModule="TrainingDiary" customModuleProvider="target">
-                                <rect key="frame" x="280" y="87" width="107" height="30"/>
+                                <rect key="frame" x="134" y="379" width="107" height="30"/>
                                 <color key="backgroundColor" red="0.63137254899999995" green="0.82745098039999998" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -291,7 +317,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tVB-MH-g7n" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4Uo-bH-lbj">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.63137254899999995" green="0.82745098039999998" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -320,7 +346,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9TF-9U-wrW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="381" y="85"/>
+            <point key="canvasLocation" x="380" y="116"/>
         </scene>
     </scenes>
     <resources>

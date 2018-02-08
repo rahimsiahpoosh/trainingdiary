@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class AddDiary: UIViewController {
+class AddDiaryVC: UIViewController {
 
     var ref: DatabaseReference!
     let uid = UserDefaults().string(forKey: "UID")
