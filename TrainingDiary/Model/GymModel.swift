@@ -11,9 +11,11 @@ import Foundation
 class GymModel {
     var id: String?
     var subject: String?
+    var diary: String?
     
-    init(id: String, subject: String) {
+    init(id: String, subject: String, diary: String) {
         self.id = id
         self.subject = subject
+        self.diary = diary
     }
 }

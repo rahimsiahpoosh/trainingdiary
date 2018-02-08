@@ -29,11 +29,12 @@ class DiariesVC: UIViewController, UITableViewDelegate, UITableViewDataSource, U
                 self.gymList.removeAll()
                 for gymDiaries in snapshot.children.allObjects as! [DataSnapshot] {
                     let gymDiaryObject = gymDiaries.value as? [String : Any]
-                    let gymSubject = gymDiaryObject?["subject"]
                     let gymId = gymDiaryObject?["id"]
-                    print(snapshot)
-                    let gymDiary = GymModel(id: (gymId as! String?)!, subject: (gymSubject as! String?)!)
-                    self.gymList.append(gymDiary)
+                    let gymSubject = gymDiaryObject?["subject"]
+                    let gymDiary = gymDiaryObject?["diary"]
+                    let gym = GymModel(id: (gymId as! String?)!, subject: (gymSubject as! String?)!, diary: (gymDiary as! String?)!)
+                    //                    print(gymDiaries)
+                    self.gymList.append(gym)
                 }
                 self.gymList.reverse()
                 self.gymListTemp = self.gymList

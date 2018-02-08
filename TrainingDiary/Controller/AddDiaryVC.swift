@@ -37,9 +37,9 @@ class AddDiaryVC: UIViewController {
     func addGym() {
         let key = ref.childByAutoId().key
         let diary = ["id":key,
-                     "subject": subjectField.text! as String]
-        ref.child(key).setValue(diary)
-    }
+                     "subject": subjectField.text! as String,
+                     "diary": diaryTextView.text! as String]
+        ref.child("objects").child(key).setValue(diary)    }
 }
 
 
