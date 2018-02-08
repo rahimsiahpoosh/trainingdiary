@@ -95,9 +95,9 @@
                                 <exclude reference="FKF-sG-nOo"/>
                                 <exclude reference="PKd-G6-Lwp"/>
                                 <exclude reference="wgP-LP-Fyf"/>
+                                <exclude reference="2HI-2A-RV4"/>
                                 <exclude reference="EB4-bj-BU5"/>
                                 <exclude reference="Gnb-eK-ey8"/>
-                                <exclude reference="2HI-2A-RV4"/>
                                 <exclude reference="b9t-ZI-Glv"/>
                                 <exclude reference="mhp-W2-Psw"/>
                             </mask>
@@ -112,12 +112,12 @@
                                 <exclude reference="qrl-M8-6sb"/>
                                 <exclude reference="uaq-R3-hpB"/>
                                 <include reference="wgP-LP-Fyf"/>
+                                <include reference="2HI-2A-RV4"/>
+                                <exclude reference="dbf-c9-XwI"/>
                                 <include reference="EB4-bj-BU5"/>
                                 <include reference="Gnb-eK-ey8"/>
                                 <exclude reference="c6e-f7-MUA"/>
                                 <exclude reference="kUH-1j-kk6"/>
-                                <include reference="2HI-2A-RV4"/>
-                                <exclude reference="dbf-c9-XwI"/>
                                 <exclude reference="DSk-3u-BaS"/>
                                 <exclude reference="FQQ-Xm-CmK"/>
                                 <include reference="b9t-ZI-Glv"/>
@@ -254,9 +254,29 @@
                     <view key="view" contentMode="scaleToFill" id="zs2-Dv-SMw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzT-yt-omL">
+                                <rect key="frame" x="166" y="167" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="imn-Yw-CWu">
+                                <rect key="frame" x="67" y="286" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="0g9-qy-Fay"/>
                     </view>
+                    <connections>
+                        <outlet property="diaryTextView" destination="imn-Yw-CWu" id="GmP-Du-0Y6"/>
+                        <outlet property="subjectLabel" destination="tzT-yt-omL" id="GdK-SU-piv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vx4-Bp-N1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -475,13 +495,13 @@
                                 <exclude reference="pc1-NJ-DaR"/>
                                 <exclude reference="uhR-7C-lVP"/>
                                 <exclude reference="vLV-h1-RdX"/>
+                                <exclude reference="XFM-c2-yPd"/>
+                                <exclude reference="ceF-vs-z3a"/>
+                                <exclude reference="gn1-ac-buE"/>
                                 <exclude reference="0ve-IW-Vdq"/>
                                 <exclude reference="Fgz-wk-ihC"/>
                                 <exclude reference="mwu-dK-3PU"/>
                                 <exclude reference="wu4-r7-wvf"/>
-                                <exclude reference="XFM-c2-yPd"/>
-                                <exclude reference="ceF-vs-z3a"/>
-                                <exclude reference="gn1-ac-buE"/>
                                 <exclude reference="5cS-6T-au5"/>
                                 <exclude reference="KQh-2h-DSl"/>
                             </mask>
@@ -498,17 +518,17 @@
                                 <exclude reference="ukY-dd-yRD"/>
                                 <include reference="vLV-h1-RdX"/>
                                 <exclude reference="zu4-Cv-jB0"/>
+                                <exclude reference="6cB-Ea-Xxr"/>
+                                <include reference="XFM-c2-yPd"/>
+                                <exclude reference="XsK-Vp-6F0"/>
+                                <include reference="ceF-vs-z3a"/>
+                                <exclude reference="gn1-ac-buE"/>
                                 <exclude reference="0ve-IW-Vdq"/>
                                 <include reference="Fgz-wk-ihC"/>
                                 <exclude reference="JeA-Rd-Xlb"/>
                                 <exclude reference="Oap-8L-nev"/>
                                 <include reference="mwu-dK-3PU"/>
                                 <exclude reference="wu4-r7-wvf"/>
-                                <exclude reference="6cB-Ea-Xxr"/>
-                                <include reference="XFM-c2-yPd"/>
-                                <exclude reference="XsK-Vp-6F0"/>
-                                <include reference="ceF-vs-z3a"/>
-                                <exclude reference="gn1-ac-buE"/>
                                 <include reference="5cS-6T-au5"/>
                                 <exclude reference="Gvz-s9-N2T"/>
                                 <include reference="KQh-2h-DSl"/>
