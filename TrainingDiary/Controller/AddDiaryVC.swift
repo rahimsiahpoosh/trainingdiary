@@ -16,6 +16,8 @@ class AddDiaryVC: UIViewController {
     
     @IBOutlet weak var subjectField: UITextField!
     
+    @IBOutlet weak var diaryTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference().child("Diaries").child(uid!)
