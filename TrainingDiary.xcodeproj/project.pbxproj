@@ -21,6 +21,7 @@
 		197C74DE2025E71F0097A4AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 197C74DD2025E71F0097A4AF /* GoogleService-Info.plist */; };
 		199C4F93202C64C900C935D1 /* DiaryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C4F92202C64C900C935D1 /* DiaryDetailVC.swift */; };
 		608FB78D32F7ADC382F625E1 /* Pods_TrainingDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87A009657D77A19997777B1 /* Pods_TrainingDiary.framework */; };
+		CE4FDB85202CA1DC005F3E48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4FDB87202CA1DC005F3E48 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,9 @@
 		197C74DD2025E71F0097A4AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		199C4F92202C64C900C935D1 /* DiaryDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailVC.swift; sourceTree = "<group>"; };
 		C87A009657D77A19997777B1 /* Pods_TrainingDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4FDB82202CA108005F3E48 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		CE4FDB86202CA1DC005F3E48 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE4FDB88202CA1DC005F3E48 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		F73FA2AC05C3E334B93A770F /* Pods-TrainingDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingDiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrainingDiary/Pods-TrainingDiary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +110,7 @@
 		197C74CA2025E6360097A4AF /* TrainingDiary */ = {
 			isa = PBXGroup;
 			children = (
+				CE4FDB87202CA1DC005F3E48 /* InfoPlist.strings */,
 				1913C6EB2028EE6600BB94AB /* Model */,
 				1913C6E620287F8B00BB94AB /* View */,
 				1913C6E12027958D00BB94AB /* Controller */,
@@ -202,6 +207,7 @@
 				197C74DE2025E71F0097A4AF /* GoogleService-Info.plist in Resources */,
 				197C74D32025E6360097A4AF /* Assets.xcassets in Resources */,
 				197C74D12025E6360097A4AF /* Main.storyboard in Resources */,
+				CE4FDB85202CA1DC005F3E48 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +297,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				197C74D02025E6360097A4AF /* Base */,
+				CE4FDB82202CA108005F3E48 /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -299,8 +306,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				197C74D52025E6360097A4AF /* Base */,
+				CE4FDB88202CA1DC005F3E48 /* sv */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4FDB87202CA1DC005F3E48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4FDB86202CA1DC005F3E48 /* sv */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -310,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -367,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

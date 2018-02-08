@@ -1,0 +1,51 @@
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "0H5-0R-rgG"; */
+"0H5-0R-rgG.normalTitle" = "Skapa Konto";
+
+/* Class = "UINavigationItem"; title = "Add Diary"; ObjectID = "3kq-z5-WJ9"; */
+"3kq-z5-WJ9.title" = "Lägg till";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "5gv-2e-zro"; */
+"5gv-2e-zro.placeholder" = "Lösenord";
+
+/* Class = "UITextField"; text = "123456"; ObjectID = "5gv-2e-zro"; */
+"5gv-2e-zro.text" = "123456";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "123-x5-bqm"; */
+"123-x5-bqm.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ASi-0g-tPk"; */
+"ASi-0g-tPk.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "FMZ-6E-qs8"; */
+"FMZ-6E-qs8.placeholder" = "Lösenord";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "JA7-AG-2ae"; */
+"JA7-AG-2ae.normalTitle" = "Bli Medlem";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "Nya-2L-Ytd"; */
+"Nya-2L-Ytd.normalTitle" = "LOGGA IN";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Vrc-V7-S0r"; */
+"Vrc-V7-S0r.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "dCU-7U-fcr"; */
+"dCU-7U-fcr.placeholder" = "Email";
+
+/* Class = "UITextField"; text = "f@f.com"; ObjectID = "dCU-7U-fcr"; */
+"dCU-7U-fcr.text" = "f@f.com";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "ehQ-Hq-71z"; */
+"ehQ-Hq-71z.normalTitle" = "Spara";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "rEu-xQ-WfO"; */
+"rEu-xQ-WfO.placeholder" = "Ämne";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "sM1-q9-xNd"; */
+"sM1-q9-xNd.placeholder" = "Namn";
+
+/* Class = "UINavigationItem"; title = "Diaries"; ObjectID = "u2s-s7-mvK"; */
+"u2s-s7-mvK.title" = "Inlägg";
+
+/* Class = "UITextField"; placeholder = "Em@il"; ObjectID = "y04-4m-GQ9"; */
+"y04-4m-GQ9.placeholder" = "Em@il";
+
